@@ -7,4 +7,4 @@ has_children: true
 has_toc: false
 ---
 
-This is a series of yonkoma that I drew based on the interactions with friends and colleagues.
+This is a series of yonkoma that I drew based on interactions with friends and colleagues.
