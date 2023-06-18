@@ -1,0 +1,11 @@
+---
+layout: default
+title: story 2
+parent: Yonkoma
+grand_parent: Illustrations
+nav_order: 1
+---
+
+### Workout Is Meant to Eat More Junk Food - 2
+
+[<img src="../../../assets/yonkoma/workout_2.png" width="500"/>](../../../assets/yonkoma/workout_2.png)
