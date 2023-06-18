@@ -6,4 +6,4 @@ has_children: true
 has_toc: false
 ---
 
-![Project Repo](https://github.com/0xdoublemoon/ethereum-coding)
+Project Repo: https://github.com/0xdoublemoon/ethereum-coding
