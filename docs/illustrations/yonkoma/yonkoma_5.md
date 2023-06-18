@@ -11,3 +11,5 @@ yonkoma
 {: .label .label-yellow }
 
 [<img src="../../../assets/yonkoma/watching_is_enough.png" width="500"/>](../../../assets/yonkoma/watching_is_enough.png)
+
+[Prev](yonkoma_4.html) [Next](yonkoma_6.html)
