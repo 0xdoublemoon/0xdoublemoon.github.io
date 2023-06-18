@@ -11,5 +11,3 @@ yonkoma
 {: .label .label-yellow }
 
 [<img src="../../../assets/yonkoma/workout_1.png" width="500"/>](../../../assets/yonkoma/workout_1.png)
-
-[Next](yonkoma_2.html){: .btn }
