@@ -73,6 +73,9 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        with:
+          # upload docs only
+          path: './docs'
 
   # Deployment job
   deploy:
