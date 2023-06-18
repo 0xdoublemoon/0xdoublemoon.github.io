@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kubernetes
-parent: BE
+parent: Backend
 nav_order: 1
 ---
 
