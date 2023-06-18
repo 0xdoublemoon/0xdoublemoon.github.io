@@ -3,7 +3,7 @@ layout: default
 title: story 4
 parent: Yonkoma
 grand_parent: Illustrations
-nav_order: 1
+nav_order: 4
 ---
 
 ### Hard Work Proofs - 2?

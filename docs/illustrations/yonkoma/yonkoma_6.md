@@ -3,7 +3,7 @@ layout: default
 title: story 6
 parent: Yonkoma
 grand_parent: Illustrations
-nav_order: 1
+nav_order: 6
 ---
 
 ### How Project Manager Helps You

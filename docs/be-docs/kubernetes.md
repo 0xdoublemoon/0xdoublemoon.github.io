@@ -2,7 +2,7 @@
 layout: default
 title: Kubernetes
 parent: BE
-nav_order: 2
+nav_order: 1
 ---
 
 Kubernetes is a set of processes running on several machines. It follows master worker patterns. One node is master and left are workers.

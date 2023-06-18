@@ -3,7 +3,7 @@ layout: default
 title: story 2
 parent: Yonkoma
 grand_parent: Illustrations
-nav_order: 1
+nav_order: 2
 ---
 
 ### Workout Is Meant to Eat More Junk Food - 2
