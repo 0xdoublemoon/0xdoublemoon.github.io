@@ -1,7 +1,7 @@
 title: 0xdoublemoon
 description: blogs
-remote_theme: "pmarsceill/just-the-docs"
-# theme: "just-the-docs"
+remote_theme: "pmarsceill/just-the-docs" # used remotely
+# theme: "just-the-docs" # used locally 
 
 url: https://0xdoublemoon.github.io
 
