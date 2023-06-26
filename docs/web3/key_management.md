@@ -5,6 +5,25 @@ parent: Web3
 nav_order: 1
 ---
 
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true},
+      jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+      TeX: {
+      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+      equationNumbers: {
+      autoNumber: "AMS"
+      }
+    }
+  });
+</script>
+
 # Key Management
 
 ## Basic Concepts
@@ -144,7 +163,10 @@ Server 2, $L_2(x) =\frac{ (x - 1)(x - 3)}{ (2- 1)(2-3)}$, and $L_2(0) = -3$, we
 
 Server 3, $L_3(x) =\frac{ (x - 1)(x - 2)}{ (3- 1)(3-2)}$, and $L_3(0) = 1$, we get $u_3 = L_3(0) * y_3 = 239 * 1$
 
-private key $u = L_1(0) * y_1 + L_2(0) * y_2+ L_2(0) * y_2 = 3*165+(-3)*198+1*239=140$
+private key 
+$$
+u=L_1(0) * y_1 + L_2(0) * y_2+ L_2(0) * y_2 = 3*165+(-3)*198+1*239=140
+$$
 
 
 In the DSA signing process,$y_{public key} = g^u$, u is the private key. since $g^u = g^{u_1+u_2+u_3} = g^{u_1} * g^{u_2} * g^{u_3}$, so it could be signed by each server and join then together in the end and will get the same result as using the private key to sign.
@@ -154,5 +176,5 @@ If user forget one key share, or the key pair leaks, we can repeat the process a
 
 ## References
 
-* [1]: Yao's Millionaires' Problem (https://en.wikipedia.org/wiki/Yao%27s_Millionaires%27_problem)
-* [2]: Primitive root: (https://brilliant.org/wiki/primitive-roots/)
+* [1] [Yao's Millionaires' Problem](https://en.wikipedia.org/wiki/Yao%27s_Millionaires%27_problem)
+* [2] [Primitive root](https://brilliant.org/wiki/primitive-roots/)
